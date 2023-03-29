@@ -1,0 +1,36 @@
+{
+  "addResident": {
+    "Title": "Mr",
+    "FirstName": "White",
+    "Surname": "Jane",
+    "Nickname": "Simon",
+    "DateOfBirth": "01/01/1975",
+    "Sex": "Male",
+    "SocialServiceNumber": "123456789",
+    "ResidentWeight": "85",
+    "ResidentHeight": "1.65",
+    "AdmissionDate": "01/01/2021",
+    "Address1": "Test address",
+    "Address2": "Test address2",
+    "City": "Reading",
+    "Postcode": "RG1 9LE",
+    "Country": "United Kingdom",
+    "ExternalTel": "0123456765",
+    "Email": "smithjane@example.com",
+    "Mobile": "07523452438",
+    "AccessDetails": "Test access",
+    "Allergies": "Test Allergies",
+    "NextOfKinTel": "017363535363",
+    "DoctorDetails": "Test doctor",
+    "Surgery": "Test surgery",
+    "SurgeryTel":"03547563424"
+
+  },
+
+  "residentDetails":{
+    "NewCustomerStatus":"Active",
+    "ReasonMessage":"Customer staus message is ACTIVE",
+    "ResidentsSearch":"White Jane"
+  }
+
+}
