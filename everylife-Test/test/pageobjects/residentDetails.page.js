@@ -1,3 +1,4 @@
+import TestData from "../testdata/addResident.json"
 
 class ResidentDetails extends ResidentBasePage
 
@@ -34,12 +35,12 @@ async residentDetails(){
     
     await this.residentDetails.click();
     await this.customerStatusUpdate.click();
-    await this.newCustomerStatus.selectByVisibleText(NewCustomerStatus);
-    await this.reasonMessage.setvalue(ReasonMessage);
+    await this.newCustomerStatus.selectByVisibleText(TestData.residentDetails.NewCustomerStatus);
+    await this.reasonMessage.setvalue(TestData.residentDetails.ReasonMessage);
     await this.customerStatusSaveButton.click();
     await chai.expect(statusActiveResident.getText(),"Active")
     await this.residentsButton.click();
-    await this.residentsSearch.setvalue(ResidentsSearch);
+    await this.residentsSearch.setvalue(TestData.residentDetails.ResidentsSearch);
     await this.searchResidentResult.click();
     await this.residentDetails.click();
     await chai.expect(firstname.getText(),"Test")

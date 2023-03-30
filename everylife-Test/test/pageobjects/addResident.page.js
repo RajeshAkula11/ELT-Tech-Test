@@ -1,3 +1,5 @@
+import TestData from "../testdata/addResident.json"
+
 class AddResident extends ResidentBasePage
 
  {
@@ -82,31 +84,31 @@ class AddResident extends ResidentBasePage
     
     await this.residentsbutton.click();
     await this.addNewResident.click();
-    await this.title.selectByVisibleText(Title);
-    await this.firstname.setValue(Firstname);
-    await this.surname.setValue(Surname);
-    await this.nickname.setValue(Nickname);
-    await this.sex.selectByVisibleText(Sex);
-    await this.dateOfBirth.setValue(DateOfBirth);
-    await this.socialServiceNumber.setValue(SocialServiceNumber);
-    await this.residentWeight.setValue(ResidentWeight);
-    await this.residentHeight.setValue(ResidentHeight);
-    await this.admissionDate.setValue(AdmissionDate);
-    await this.address1.setValue(Address1);
-    await this.address2.setValue(Address2);
-    await this.city.setValue(City);
-    await this.county.setValue(County);
-    await this.postcode.setValue(Postcode);
-    await this.country.setValue(Country);
-    await this.externalTel.setValue(ExternalTel);
-    await this.email.setValue(Email);
-    await this.mobile.setValue(Mobile);
-    await this.accessDetails.setValue(AccessDetails);
-    await this.allergies.setValue(Allergies);
-    await this.nextOfKinTel.setValue(NextOfKinTel);
-    await this.doctorDetails.setValue(DoctorDetails);
-    await this.surgery.setvalue(Surgery);
-    await this.surgeryTel.setValue(SurgeryTel);
+    await this.title.selectByVisibleText(TestData.addResident.Title);
+    await this.firstname.setValue(TestData.addResident.FirstName);
+    await this.surname.setValue(TestData.addResident.Surname);
+    await this.nickname.setValue(TestData.addResident.Nickname);
+    await this.sex.selectByVisibleText(TestData.addResident.Sex);
+    await this.dateOfBirth.setValue(TestData.addResident.DateOfBirth);
+    await this.socialServiceNumber.setValue(TestData.addResident.SocialServiceNumber);
+    await this.residentWeight.setValue(TestData.addResident.ResidentWeight);
+    await this.residentHeight.setValue(TestData.addResident.ResidentHeight);
+    await this.admissionDate.setValue(TestData.addResident.AdmissionDate);
+    await this.address1.setValue(TestData.addResident.Address1);
+    await this.address2.setValue(TestData.addResident.Address2);
+    await this.city.setValue(TestData.addResident.City);
+    await this.county.setValue(TestData.addResident.County);
+    await this.postcode.setValue(TestData.addResident.Postcode);
+    await this.country.setValue(TestData.addResident.Country);
+    await this.externalTel.setValue(TestData.addResident.ExternalTel);
+    await this.email.setValue(TestData.addResident.Email);
+    await this.mobile.setValue(TestData.addResident.Mobile);
+    await this.accessDetails.setValue(TestData.addResident.AccessDetails);
+    await this.allergies.setValue(TestData.addResident.Allergies);
+    await this.nextOfKinTel.setValue(TestData.addResident.NextOfKinTel);
+    await this.doctorDetails.setValue(TestData.addResident.DoctorDetails);
+    await this.surgery.setvalue(TestData.addResident.Surgery);
+    await this.surgeryTel.setValue(TestData.addResident.SurgeryTel);
     await this.saveButton.click();
     await this.newResident.getText();
 

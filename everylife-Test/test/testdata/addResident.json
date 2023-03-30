@@ -14,6 +14,7 @@
     "Address2": "Test address2",
     "City": "Reading",
     "Postcode": "RG1 9LE",
+    "County": "Berkshire",
     "Country": "United Kingdom",
     "ExternalTel": "0123456765",
     "Email": "smithjane@example.com",

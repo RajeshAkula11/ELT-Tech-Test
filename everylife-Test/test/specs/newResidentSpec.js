@@ -13,8 +13,7 @@ it('Verify new resident added successfully', async () => {
    await LoginPage.login('Testuserone1988', 'TechTest123$$')
    await AddResident.addNewReceiver()
    await ResidentDetails.residentDetails()
-   console.log("new resident ..........." + addResident.newResident)
-   await userData.setField("newResident", addResident.newResident)
+   
 })
 
 })
