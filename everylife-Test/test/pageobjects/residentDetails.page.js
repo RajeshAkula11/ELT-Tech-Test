@@ -46,8 +46,6 @@ async residentDetails(){
     await chai.expect(firstname.getText(),"Test")
     await chai.expect(surname.getText(),"Smith")
     await chai.expect(dateOfBirth.getText(),"01/01/1950")
-    
-    // We have to assert the customer details are searched with exact term
 
 }
 
